@@ -67,7 +67,7 @@ const Index = () => {
             <div className="w-8 h-8 rounded-full bg-[#e8c4b0] flex items-center justify-center">
               <span className="text-sm">🌸</span>
             </div>
-            <span className="text-lg font-semibold tracking-wide text-[#3d3530]" style={{ fontFamily: "'Lora', serif" }}>
+            <span className="text-lg font-semibold tracking-wide text-[#3d3530]" style={{ fontFamily: "'Fraunces', serif" }}>
               Giftura
             </span>
           </div>
@@ -108,7 +108,7 @@ const Index = () => {
             <div className="inline-flex items-center gap-2 bg-[#f5e6dc] text-[#c07a5a] text-xs px-4 py-2 rounded-full mb-8 font-medium">
               <span>🌷</span> Подарки с заботой — для ваших клиентов
             </div>
-            <h1 className="text-5xl md:text-6xl font-medium leading-[1.15] mb-6 text-[#3d3530]" style={{ fontFamily: "'Lora', serif" }}>
+            <h1 className="text-5xl md:text-6xl font-medium leading-[1.15] mb-6 text-[#3d3530]" style={{ fontFamily: "'Fraunces', serif" }}>
               Когда хочется<br />
               сказать{" "}
               <em className="text-[#c07a5a] not-italic">«вы важны»</em>
@@ -133,7 +133,7 @@ const Index = () => {
             <div className="mt-12 flex gap-10">
               {[["500+", "довольных клиентов"], ["98%", "хотят снова"], ["5 лет", "с любовью"]].map(([v, l]) => (
                 <div key={l}>
-                  <div className="text-2xl font-semibold text-[#3d3530]" style={{ fontFamily: "'Lora', serif" }}>{v}</div>
+                  <div className="text-2xl font-semibold text-[#3d3530]" style={{ fontFamily: "'Fraunces', serif" }}>{v}</div>
                   <div className="text-[#a89890] text-xs mt-0.5">{l}</div>
                 </div>
               ))}
@@ -166,7 +166,7 @@ const Index = () => {
       <section className="py-20 bg-[#f5f0eb]">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <p className="text-[#8a7a72] text-sm uppercase tracking-widest mb-4">Почему это работает</p>
-          <h2 className="text-4xl font-medium text-[#3d3530] mb-14" style={{ fontFamily: "'Lora', serif" }}>
+          <h2 className="text-4xl font-medium text-[#3d3530] mb-14" style={{ fontFamily: "'Fraunces', serif" }}>
             Подарок говорит то, что сложно выразить словами
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -177,7 +177,7 @@ const Index = () => {
             ].map(c => (
               <div key={c.title} className="bg-white rounded-2xl p-8 text-left shadow-[0_4px_20px_rgba(0,0,0,0.05)]">
                 <div className="text-3xl mb-5">{c.emoji}</div>
-                <h3 className="text-[#3d3530] font-medium text-lg mb-3" style={{ fontFamily: "'Lora', serif" }}>{c.title}</h3>
+                <h3 className="text-[#3d3530] font-medium text-lg mb-3" style={{ fontFamily: "'Fraunces', serif" }}>{c.title}</h3>
                 <p className="text-[#8a7a72] text-sm leading-relaxed">{c.desc}</p>
               </div>
             ))}
@@ -189,7 +189,7 @@ const Index = () => {
       <section id="Каталог" className="py-24 px-6 max-w-7xl mx-auto">
         <div className="text-center mb-14">
           <p className="text-[#8a7a72] text-sm uppercase tracking-widest mb-3">Наши наборы</p>
-          <h2 className="text-4xl font-medium text-[#3d3530]" style={{ fontFamily: "'Lora', serif" }}>Каталог</h2>
+          <h2 className="text-4xl font-medium text-[#3d3530]" style={{ fontFamily: "'Fraunces', serif" }}>Каталог</h2>
         </div>
 
         {/* FILTERS */}
@@ -241,7 +241,7 @@ const Index = () => {
                 )}
               </div>
               <div className="p-6">
-                <h3 className="text-lg text-[#3d3530] mb-1 font-medium" style={{ fontFamily: "'Lora', serif" }}>{p.name}</h3>
+                <h3 className="text-lg text-[#3d3530] mb-1 font-medium" style={{ fontFamily: "'Fraunces', serif" }}>{p.name}</h3>
                 <div className="flex items-center justify-between mt-3">
                   <span className="text-xl font-semibold text-[#3d3530]">{p.price.toLocaleString("ru")} ₽</span>
                   <button className="flex items-center gap-2 text-sm text-[#c07a5a] hover:text-[#a8674a] transition-colors font-medium">
@@ -262,7 +262,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-14">
             <p className="text-[#8a7a72] text-sm uppercase tracking-widest mb-3">Как мы работаем</p>
-            <h2 className="text-4xl font-medium text-[#3d3530]" style={{ fontFamily: "'Lora', serif" }}>Наши услуги</h2>
+            <h2 className="text-4xl font-medium text-[#3d3530]" style={{ fontFamily: "'Fraunces', serif" }}>Наши услуги</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
             {SERVICES.map(s => (
@@ -270,7 +270,7 @@ const Index = () => {
                 <div className="w-12 h-12 mb-5 rounded-xl bg-[#f5e6dc] flex items-center justify-center">
                   <Icon name={s.icon} size={22} className="text-[#c07a5a]" />
                 </div>
-                <h3 className="text-[#3d3530] font-medium mb-3" style={{ fontFamily: "'Lora', serif" }}>{s.title}</h3>
+                <h3 className="text-[#3d3530] font-medium mb-3" style={{ fontFamily: "'Fraunces', serif" }}>{s.title}</h3>
                 <p className="text-[#8a7a72] text-sm leading-relaxed">{s.desc}</p>
               </div>
             ))}
@@ -282,13 +282,13 @@ const Index = () => {
       <section id="Акции" className="py-24 px-6 max-w-7xl mx-auto">
         <div className="text-center mb-14">
           <p className="text-[#8a7a72] text-sm uppercase tracking-widest mb-3">Специальные условия</p>
-          <h2 className="text-4xl font-medium text-[#3d3530]" style={{ fontFamily: "'Lora', serif" }}>Акции</h2>
+          <h2 className="text-4xl font-medium text-[#3d3530]" style={{ fontFamily: "'Fraunces', serif" }}>Акции</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {PROMO.map(pr => (
             <div key={pr.title} className="bg-gradient-to-br from-[#fdf6f2] to-[#f5ede7] rounded-2xl p-8 border border-[#e8ddd5]">
               <div className="text-4xl mb-4">{pr.emoji}</div>
-              <div className="text-2xl font-semibold text-[#c07a5a] mb-2" style={{ fontFamily: "'Lora', serif" }}>{pr.label}</div>
+              <div className="text-2xl font-semibold text-[#c07a5a] mb-2" style={{ fontFamily: "'Fraunces', serif" }}>{pr.label}</div>
               <h3 className="text-[#3d3530] font-medium text-lg mb-2">{pr.title}</h3>
               <p className="text-[#8a7a72] text-sm">{pr.desc}</p>
             </div>
@@ -309,7 +309,7 @@ const Index = () => {
           </div>
           <div>
             <p className="text-[#8a7a72] text-sm uppercase tracking-widest mb-4">Наша история</p>
-            <h2 className="text-4xl font-medium text-[#3d3530] mb-6" style={{ fontFamily: "'Lora', serif" }}>
+            <h2 className="text-4xl font-medium text-[#3d3530] mb-6" style={{ fontFamily: "'Fraunces', serif" }}>
               Мы верим, что<br />забота — это язык
             </h2>
             <p className="text-[#8a7a72] leading-relaxed mb-5">
@@ -321,7 +321,7 @@ const Index = () => {
             <div className="grid grid-cols-2 gap-5">
               {[["10 000+", "наборов собрано"], ["50+", "партнёров"], ["3 города", "доставки"], ["100%", "ручная сборка"]].map(([v, l]) => (
                 <div key={l} className="bg-white rounded-xl px-5 py-4 border border-[#e8ddd5]">
-                  <div className="text-xl font-semibold text-[#c07a5a]" style={{ fontFamily: "'Lora', serif" }}>{v}</div>
+                  <div className="text-xl font-semibold text-[#c07a5a]" style={{ fontFamily: "'Fraunces', serif" }}>{v}</div>
                   <div className="text-[#a89890] text-xs mt-0.5">{l}</div>
                 </div>
               ))}
@@ -334,7 +334,7 @@ const Index = () => {
       <section id="Отзывы" className="py-24 px-6 max-w-7xl mx-auto">
         <div className="text-center mb-14">
           <p className="text-[#8a7a72] text-sm uppercase tracking-widest mb-3">Говорят клиенты</p>
-          <h2 className="text-4xl font-medium text-[#3d3530]" style={{ fontFamily: "'Lora', serif" }}>Отзывы</h2>
+          <h2 className="text-4xl font-medium text-[#3d3530]" style={{ fontFamily: "'Fraunces', serif" }}>Отзывы</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {REVIEWS.map(r => (
@@ -359,7 +359,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
             <p className="text-[#8a7a72] text-sm uppercase tracking-widest mb-4">Напишите нам</p>
-            <h2 className="text-4xl font-medium text-[#3d3530] mb-6" style={{ fontFamily: "'Lora', serif" }}>
+            <h2 className="text-4xl font-medium text-[#3d3530] mb-6" style={{ fontFamily: "'Fraunces', serif" }}>
               Расскажите о ваших клиентах — мы подберём то, что их тронет
             </h2>
             <p className="text-[#8a7a72] leading-relaxed mb-10">
@@ -382,7 +382,7 @@ const Index = () => {
             </div>
           </div>
           <div className="bg-white rounded-2xl p-8 shadow-[0_4px_30px_rgba(0,0,0,0.06)]">
-            <h3 className="text-xl font-medium text-[#3d3530] mb-6" style={{ fontFamily: "'Lora', serif" }}>Оставить заявку</h3>
+            <h3 className="text-xl font-medium text-[#3d3530] mb-6" style={{ fontFamily: "'Fraunces', serif" }}>Оставить заявку</h3>
             <div className="space-y-4">
               {[
                 { label: "Ваше имя", type: "text", placeholder: "Александра" },
@@ -411,7 +411,7 @@ const Index = () => {
       <footer className="py-10 px-6 border-t border-[#e8ddd5] text-center bg-[#faf8f5]">
         <div className="flex items-center justify-center gap-2 mb-3">
           <span>🌸</span>
-          <span className="font-medium text-[#3d3530]" style={{ fontFamily: "'Lora', serif" }}>Giftura</span>
+          <span className="font-medium text-[#3d3530]" style={{ fontFamily: "'Fraunces', serif" }}>Giftura</span>
         </div>
         <p className="text-[#a89890] text-xs">© 2024 Giftura — подарки с заботой. Все права защищены.</p>
       </footer>
