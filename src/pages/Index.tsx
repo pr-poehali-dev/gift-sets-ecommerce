@@ -68,7 +68,7 @@ const Index = () => {
               src="https://cdn.poehali.dev/projects/fb4832ed-b079-4808-9c7e-fb1b049edc24/bucket/a9c9e628-8217-4130-b22d-6c3a8293c5ad.jpg"
               alt="Всегда Такая"
               className="h-28 w-auto object-contain"
-              style={{ filter: "sepia(60%) saturate(0.8) brightness(0.6) hue-rotate(320deg)", mixBlendMode: "multiply" }}
+              style={{ filter: "sepia(60%) saturate(0.8) brightness(0.6) hue-rotate(320deg)" }}
             />
           </div>
           <div className="hidden md:flex items-center gap-8">
@@ -414,7 +414,7 @@ const Index = () => {
             src="https://cdn.poehali.dev/projects/fb4832ed-b079-4808-9c7e-fb1b049edc24/bucket/a9c9e628-8217-4130-b22d-6c3a8293c5ad.jpg"
             alt="Всегда Такая"
             className="h-20 w-auto object-contain"
-            style={{ filter: "sepia(60%) saturate(0.8) brightness(0.6) hue-rotate(320deg)", mixBlendMode: "multiply" }}
+            style={{ filter: "sepia(60%) saturate(0.8) brightness(0.6) hue-rotate(320deg)" }}
           />
         </div>
         <p className="text-[#a89890] text-xs">© 2024 Giftura — подарки с заботой. Все права защищены.</p>
