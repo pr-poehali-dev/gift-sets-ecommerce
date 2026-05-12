@@ -409,9 +409,13 @@ const Index = () => {
 
       {/* FOOTER */}
       <footer className="py-10 px-6 border-t border-[#e8ddd5] text-center bg-[#faf8f5]">
-        <div className="flex items-center justify-center gap-2 mb-3">
-          <span>🌸</span>
-          <span className="font-medium text-[#3d3530]" style={{ fontFamily: "'Fraunces', serif" }}>Giftura</span>
+        <div className="flex items-center justify-center mb-3">
+          <img
+            src="https://cdn.poehali.dev/projects/fb4832ed-b079-4808-9c7e-fb1b049edc24/bucket/a9c9e628-8217-4130-b22d-6c3a8293c5ad.jpg"
+            alt="Всегда Такая"
+            className="h-20 w-auto object-contain"
+            style={{ filter: "sepia(60%) saturate(0.8) brightness(0.6) hue-rotate(320deg)", mixBlendMode: "multiply" }}
+          />
         </div>
         <p className="text-[#a89890] text-xs">© 2024 Giftura — подарки с заботой. Все права защищены.</p>
       </footer>
