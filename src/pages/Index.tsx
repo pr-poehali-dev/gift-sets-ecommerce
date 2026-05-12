@@ -67,7 +67,8 @@ const Index = () => {
             <img
               src="https://cdn.poehali.dev/projects/fb4832ed-b079-4808-9c7e-fb1b049edc24/bucket/a9c9e628-8217-4130-b22d-6c3a8293c5ad.jpg"
               alt="Всегда Такая"
-              className="h-10 w-auto object-contain"
+              className="h-14 w-auto object-contain"
+              style={{ filter: "sepia(30%) saturate(0.6) brightness(0.75) hue-rotate(330deg)" }}
             />
           </div>
           <div className="hidden md:flex items-center gap-8">
