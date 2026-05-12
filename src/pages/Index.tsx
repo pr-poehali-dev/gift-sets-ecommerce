@@ -63,13 +63,12 @@ const Index = () => {
       {/* NAV */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#faf8f5]/90 backdrop-blur-md border-b border-[#e8ddd5]">
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-full bg-[#e8c4b0] flex items-center justify-center">
-              <span className="text-sm">🌸</span>
-            </div>
-            <span className="text-lg font-semibold tracking-wide text-[#3d3530]" style={{ fontFamily: "'Fraunces', serif" }}>
-              Giftura
-            </span>
+          <div className="flex items-center">
+            <img
+              src="https://cdn.poehali.dev/projects/fb4832ed-b079-4808-9c7e-fb1b049edc24/bucket/a9c9e628-8217-4130-b22d-6c3a8293c5ad.jpg"
+              alt="Всегда Такая"
+              className="h-10 w-auto object-contain"
+            />
           </div>
           <div className="hidden md:flex items-center gap-8">
             {NAV_LINKS.map(link => (
